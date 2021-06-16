@@ -1,8 +1,8 @@
 
-
+$HeroTitleSize:22px;
 .companyPage {
 	.HeroTitle {
-		font-size: 22px;
+		font-size: $HeroTitleSize;
 		width: 50%;
 		&:before {
 			display: none;
@@ -140,9 +140,9 @@ p.TeamQuote {
 		bottom: 41px;
 	}
 	padding: 0px 0;
-	font-size: 22px;
+	font-size: $HeroTitleSize;
 	line-height: 36px;
-	font-weight: 600;
+	font-weight: $semibold-font-weight;
 	font-style: italic;
 	text-align: center;
 	span {
@@ -178,7 +178,7 @@ p.TeamQuote {
 		span {
 			display: block;
 			margin-bottom: 0.5rem;
-			font-weight: bold;
+			font-weight: $bold-font-weight;
 		}
 	}
 	img {
@@ -186,7 +186,7 @@ p.TeamQuote {
 	}
 	.contactus {
 		font-size: 20px;
-		font-weight: 500;
+		font-weight: $medium-font-weight;
 		line-height: 24px;
 		margin-bottom: 2rem;
 	}
@@ -238,7 +238,7 @@ p.TeamQuote {
 }
 .Our_Vision_bottom .vision-overlay h3 {
     font-size: 36px;
-    font-weight: bold;
+    font-weight: $bold-font-weight;
     line-height: 44px;
     text-align: center;
 }
@@ -248,7 +248,7 @@ p.TeamQuote {
 
 .vision-overlay h3 {
     font-size: 24px;
-    font-weight: 600;
+    font-weight: $semibold-font-weight;
     line-height: 29px;
 	margin-bottom: 1.5rem;
 }
@@ -273,7 +273,7 @@ p.TeamQuote {
 }
 .Vision-1 {
 	font-size: 168px;
-	font-weight: bold;
+	font-weight: $bold-font-weight;
 	line-height: 0px;
 	padding: 0;
 	margin: 0;
@@ -285,7 +285,7 @@ p.TeamQuote {
 }
 .Vision-2 {
 	font-size: 168px;
-	font-weight: bold;
+	font-weight: $bold-font-weight;
 	line-height: 0px;
 	padding: 0;
 	margin: 0;
@@ -297,7 +297,7 @@ p.TeamQuote {
 }
 .Vision-3 {
 	font-size: 168px;
-	font-weight: bold;
+	font-weight: $bold-font-weight;
 	line-height: 0px;
 	padding: 0;
 	margin: 0;
@@ -309,7 +309,7 @@ p.TeamQuote {
 }
 .Vision-4 {
 	font-size: 168px;
-	font-weight: bold;
+	font-weight: $bold-font-weight;
 	line-height: 0px;
 	padding: 0;
 	margin: 0;
@@ -350,7 +350,7 @@ p.TeamQuote {
 .OurTeamHeading {
 	font-size: 36px;
 	display: flex;
-	font-weight: 600;
+	font-weight: $semibold-font-weight;
 	line-height: 44px;
 	margin-top: 5rem;
 }
@@ -376,9 +376,9 @@ p.OurTeamQuote {
 		bottom: 0;
 	}
 	padding: 0px 0;
-	font-size: 22px;
+	font-size: $HeroTitleSize;
 	line-height: 36px;
-	font-weight: 600;
+	font-weight: $semibold-font-weight;
 	font-style: italic;
 	text-align: center;
 }
@@ -401,7 +401,7 @@ p.OurTeamQuote {
 	padding: 20px;
 	text-align: center;
 	height: 99.8%;
-	font-weight: 500;
+	font-weight: $medium-font-weight;
 	p {
 		position: relative;
 		top: 193px;
@@ -414,11 +414,13 @@ p.OurTeamQuote {
 		}
 	}
 }
+
+
 .TeamName {
 	padding: 8px 0;
 	text-transform: uppercase;
 	h4 {
-		font-weight: 300;
+		font-weight: $light-font-weight;
 	}
 }
 .TeamTitleImg {
